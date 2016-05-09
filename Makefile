@@ -9,7 +9,7 @@ target pngtarget pdftarget vtarget acrtarget: notarget
 
 # make files
 
-Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
+Sources = Makefile .gitignore README.md stuff.mk LICENSE.md notes.md
 include stuff.mk
 # include $(ms)/perl.def
 
