@@ -16,6 +16,8 @@ include stuff.mk
 
 ## Content
 
+Sources += $(wildcard *.R)
+
 functions.Rout: functions.R
 
 ######################################################################
