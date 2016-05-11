@@ -2,10 +2,9 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: notarget
+target pngtarget pdftarget vtarget acrtarget: functions.Rout 
 
 ##################################################################
-
 
 # make files
 
@@ -17,6 +16,8 @@ include stuff.mk
 
 ## Content
 
+functions.Rout: functions.R
+
 ######################################################################
 
 ### Makestuff
@@ -27,5 +28,5 @@ include stuff.mk
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
 
-# -include $(ms)/wrapR.mk
+-include $(ms)/wrapR.mk
 # -include $(ms)/oldlatex.mk
